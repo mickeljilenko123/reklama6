@@ -12,7 +12,7 @@
      <!-- Bootstrap CSS -->
      <link rel="stylesheet" href="css/bootstrap.min.css">
      <link href="css/style.css" rel="stylesheet">
-     <link rel="stylesheet" href=css/font-awesome.min.css">
+     <link rel="stylesheet" href="node_modules/font-awesome/css/font-awesome.min.css">
      <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
      <link href="https://fonts.googleapis.com/css?family=Roboto+Slab" rel="stylesheet">
@@ -73,7 +73,7 @@
                        </div>
                       <div class="col-sm-12 col-md-4">
                           <form>
-                        <div class="form-group">
+                        <form action="/submit.php" method="POST">
                       <input class="form-control"  type="text" name="name" placeholder="Им'я*" required>
                       <input class="form-control" type="text" name="email" placeholder="Email*" required>
                       <input class="form-control" type="text" name="phone" placeholder="Телефон*" required>
@@ -98,9 +98,9 @@
                             <p>Сб/Вс Вихідний</p>
                   </div>
                   <div class="col-sm-4">
-                                    <h4>ЗАКАЗАТЬ</h4>
+                                    <h4>ЗАКАЗАТИ</h4>
                                     <br>
-                                    <p> +38(066)995-55-52</p>
+                                    <p> +38(050)277-00-13</p>
                                     <p> info@perspectiva.com.ua</p>
                   </div>
                 </div>
@@ -111,8 +111,12 @@
              </div>
          </section>
     <footer class="footer1">
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40609.14453412257!2d32.687630092729044!3d50.495626397171804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d5e46a5b13231b%3A0x44fe015c4660ec68!2z0JLQsNGA0LLQsCwg0KfQtdGA0L3QuNCz0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1sru!2sua!4v1507057393003" width="1663" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
-               
+        <div class="container map">
+           <div class="row">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d40609.14453412257!2d32.687630092729044!3d50.495626397171804!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d5e46a5b13231b%3A0x44fe015c4660ec68!2z0JLQsNGA0LLQsCwg0KfQtdGA0L3QuNCz0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1sru!2sua!4v1507057393003" width="1740" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+           </div>
+        </div>
+
                
                 
                        
@@ -123,9 +127,10 @@
        
     </footer>
  <!-- jQuery first, then Tether, then Bootstrap JS. -->
- <script src="js/jquery.min.js"></script>
- <script src="js/tether.min.js"></script>
+ <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="js/tether.min.js"></script>
  <script src="js/bootstrap.min.js"></script>
+ <script src="js/common.js"></script>
 </body>
 
 </html>

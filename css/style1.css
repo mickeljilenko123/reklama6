@@ -3,6 +3,13 @@ body,
 #cover {
     height: 100%;
 }
+
+#cover-2 {
+    
+}
+
+
+
 .top {
     background-color:  #253028;
 }
@@ -13,6 +20,7 @@ body,
     -moz-background-size: cover; 
     -o-background-size: cover; 
 }
+
 
 h1 {
     margin-top: 20%;
@@ -254,11 +262,10 @@ a.collapsed:hover {
 .form {
     margin-left: 30px;
 }
-.map {
-    width: auto;
+
+footer1 {
+    background: url('https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d20304.558839167687!2d32.70513988639313!3d50.495657636996874!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40d5e46a5b13231b%3A0x44fe015c4660ec68!2z0JLQsNGA0LLQsCwg0KfQtdGA0L3QuNCz0L7QstGB0LrQsNGPINC-0LHQu9Cw0YHRgtGM!5e0!3m2!1sru!2sua!4v1507053763928');
 }
-
-
 
 
 

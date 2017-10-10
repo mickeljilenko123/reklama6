@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    $('form').submit(function(){
+    $("#top_form").submit(function(){
         $.ajax({
             type: 'POST',
             url: 'mail.php',
